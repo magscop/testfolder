@@ -1,15 +1,52 @@
-<!DOCTYPE html>
 <html>
 <head>
-  <meta charset="UTF-8">
-  <title>Your Website</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lexend+Deca">
   <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" type="text/css" href="style.css"> <!-- Add the menu's CSS here -->
 </head>
 <body>
-  <!-- Your homepage content goes here -->
-  <h1>Welcome to Your Website</h1>
-  <p>This is the homepage of your website.</p>
-  <a href="about.html">Learn more about us</a>
-  <!-- More content... -->
+  <header>
+     <div id="text-container">
+      <div id="static-text">Maggie Copland |   </div>
+      <div id="typing-text"></div>
+    </div>
+    </div>
+    <nav class="main-menu">
+      <ul>
+        <li><a href="#">Work</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Skills</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+	<div class="hero-content">
+	  <h2>Empowering business success through design</h2>
+	  <p>Creating exceptional UX/UI designs that not only make your product or service look impressive but also drive business success.</p>
+	  <div class="button-container">
+      <a href="#" class="button white-button">Learn More</a> <!-- Add the white-button class -->
+      <a href="#" class="button yellow-button">Contact Us</a>
+    </div>
+	</div>
+  </section>
+
+  <section class="content-section">
+    <div class="column">
+      <h3>Crafting Creative Visions <br> for Business Success</h3>
+      <p>Maggie Copland is a strategic problem-solver, critical thinker, and loyal user advocate. Her background includes digital marketing, web & graphic design, psychology, and human-computer interaction. Maggie's versatile experience spans healthcare, real estate, IT, and non-profits, enabling her to lead complex digital projects and create user-friendly solutions. Proficient in UX research, design systems, and digital accessibility guidelines, she ensures effective and inclusive digital experiences everytime.</p>
+    </div>
+    <div class="column">
+      <img src="your-image.jpg" alt="Image">
+      <p>Text content goes here...</p>
+    </div>
+  </section>
+
+  <h1 class="header">Welcome to My Website</h1>
+
+  <button onclick="changeText()">Click Me</button>
+  
+  <script src="script.js"></script>
 </body>
 </html>

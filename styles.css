@@ -1,0 +1,220 @@
+body, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Apply a background color to the header and set the display to flex */
+header {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #000000;
+  padding: 40px 20px; /* Add some padding for spacing */
+}
+
+#text-container {
+  display: flex; /* Display static and typing text side by side */
+  align-items: center; /* Center vertically within the container */
+}
+
+/* Add styles for the static text */
+#static-text {
+  color: #000; /* Color of the static text */
+  font-weight: bold;
+  font-size: 22;
+}
+
+/* Style the typing text */
+#typing-text {
+  color: #000; /* Color of the typing text */
+  font-weight: bold;
+  font-size: 22;
+  margin-left: 5px;
+}
+
+/* Style the main menu */
+.main-menu {
+  /* Add some margin to push it to the right */
+  margin-right: px;
+}
+
+/* Style the menu items */
+.main-menu ul {
+  list-style: none;
+  display: flex;
+}
+
+.main-menu li {
+  margin-right: 20px; /* Add spacing between menu items */
+}
+
+.main-menu a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 22px;
+  font-weight: bold;
+   /* Text color for menu items */
+}
+
+
+
+.header {
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: bold;
+  color: #000000;
+  font-size: 32px;
+  align-items: center;
+}
+
+body {
+  font-family: 'Lexend Deca', sans-serif; /* Set the font-family for the entire body */
+}
+
+button{
+font-weight: 100;
+  font-family: 'Lexend Deca', sans-serif; /* Set the font-family for the entire body */
+  background-color: #FDFFD3;
+  padding: 10px 25px; /* Adjust the padding to make the button bigger */
+  font-size: 16px;
+  border-radius: 10px; 
+  color: #000;
+  transition: color 0.3s; 
+  box-shadow: 5px 5px 0 0 #000;
+}
+
+  button:hover {
+    color: #969696; /* Change the text color to grey (#888) on hover */
+  }
+
+  .hero {
+    background-color: #FDFFD3;
+    background-image: url('penis.png');
+    background-size: cover;
+    background-position: center;
+    color: #fff; /* Text color on top of the background image */
+    text-align: center;
+    padding: 80px 0;
+    width: 100%;
+    overflow: hidden;
+   
+  }
+  
+  /* Style the hero content */
+  .hero-content {
+    background-color: rgba(255, 255, 255, 0.868); /* Semi-transparent background for better text readability */
+    box-shadow: 15px 15px 0 0 #000;
+    border: #000;
+    border: 2px solid #000; /* Add a black border to the text box */
+    box-sizing: border-box;
+    padding: 30px 20px;
+    border-radius: 10px;
+    max-width: 450px;
+    margin: 70px;
+    max-height: 600px;
+    margin-top: 10;
+    margin-bottom: 10px;
+    
+  }
+  
+  
+  /* Style the text and button in the hero content */
+  .hero-content h2 {
+    font-size: 40px;
+    color: #000000;
+    margin-bottom: 14px;
+    font-weight: 800;
+    margin-top: 20;
+  
+  }
+  
+  .hero-content p {
+    font-size: 22px;
+    color: #000000;
+
+  }
+  
+  .button-container {
+    margin-top: 30px;
+    margin-bottom: 15;
+    display: flex;
+    gap: 50px; /* Increase the spacing between buttons */
+    justify-content: center;
+  }
+  
+
+  .white-button {
+    background-color: #fff;
+    color: #000;
+    box-shadow: 5px 5px 0 0 #000;
+    border: 2px solid #000; /* Add a black border to the text box */
+    box-sizing: border-box;
+  }
+  
+  /* Style the yellow button */
+  .yellow-button {
+    background-color: #FDFFD3;
+    color: #000000;
+    box-shadow: 5px 5px 0 0 #000;
+    transition: background-color 0.3s;
+    border: 2px solid #000; /* Add a black border to the text box */
+    box-sizing: border-box;
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 7px;
+    font-weight: bold;
+    font-size: 18;
+
+  }
+  
+  .hero-content .button:hover {
+    color: #969696;
+  }
+
+  .content-section {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FDFFD3;
+    padding: 40px;
+    border: 2px solid #000;
+    border-radius: 7px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 0 0 #000;
+    max-width: 80%;
+    margin: 0 auto;
+    
+  }
+  
+  .column {
+    flex: 1; /* Distribute available space equally between columns */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Style the columns */
+  .column {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .column h3 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .column img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  p{
+    font-size: 17;
+    font-weight: 100;
+  }
